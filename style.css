@@ -1001,6 +1001,31 @@ main section form #submit {
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
+#floatBtn a{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2192FF;
+    transition: all 0.3s ease-in-out;
+}
+
+#floatBtn i {
+    color: #fff;
+    font-size: 1.5rem;
+}
+#floatBtn:hover{
+    background: #256D85;
+    cursor: pointer;
+}
+
+
 footer{
     background: #2C3333;
     color: #fff;

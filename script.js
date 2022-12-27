@@ -17,7 +17,7 @@ navToggle.addEventListener('click', () => {
 window.onload = function() {
     
     var typingSpeed = 50;
-    var text1 = "Hello!, I'm Olabiyi";
+    var text1 = "Hello!, I'm Taiwo";
     // var text2 = " I am a virtual assistant, front-end developer, and data analyst with over three years of experience.";
 
     function type(element, text) {
@@ -98,5 +98,17 @@ const email = document.getElementById('email');
 submitButton.addEventListener('click', () => {
     messageBox;
 })
+
+// Scroll to top button
+const floatButton = document.querySelector('#floatBtn');
+    
+window.addEventListener('scroll', () => {
+    if (window.scrollY < 800) {
+        floatButton.style.display = 'none';
+    } else {
+        floatButton.style.display = 'block';
+    }
+})
+
 
 
